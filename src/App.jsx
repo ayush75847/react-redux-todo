@@ -1,13 +1,16 @@
-import './App.css'
+import './App.css';
+import Todo from './components/Todo.jsx';
+import {Provider} from "react-redux";
+import { store } from './app/store.js';
 
 function App() {
-  
+
   return (
     <>
-      <h1 className="text-4xl font-bold text-blue-600">
-        Tailwind works!
-      </h1>
+      <Provider store={store}>
+        <Todo />
 
+      </Provider>
     </>
   )
 }
