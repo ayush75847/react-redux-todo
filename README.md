@@ -40,7 +40,7 @@ A beautifully designed task management application built with **React**, **Redux
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ayush75847/luxury-todo-app.git
+   git clone https://github.com/ayush75847/react-redux-todo.git
    cd react-redux-todo-app
    ```
 
